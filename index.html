@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Geomate</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Geomate</h1>
+      </div>
+    </nav>
+
+    <main class="main container">
+      <form action="" class="form">
+        <input
+          type="text"
+          name="input-text"
+          class="input-text"
+          placeholder="Search for any city or country"
+        />
+        <button class="btn">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </button>
+      </form>
+
+      <!-- Warning Modal -->
+      <div class="modal hidden">
+        <div class="warning-icon">
+          <ion-icon name="warning-outline"></ion-icon>
+        </div>
+        <div class="warning-text">Location not found.</div>
+        <button class="close-modal">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <div class="weather-info">
+        <div class="info info-1">
+          <h3 class="info-title">Location</h3>
+          <h2>
+            <span class="city">Tirupati</span>, <span class="country">IN</span>
+          </h2>
+        </div>
+        <div class="info info-2">
+          <h3 class="info-title">Temp</h3>
+          <h2><span class="celcius">60</span>&deg;C</h2>
+        </div>
+        <div class="info info-3">
+          <h3 class="info-title">Pressure</h3>
+          <h2><span class="pressure">1012</span> hPa</h2>
+        </div>
+        <div class="info info-4">
+          <h3 class="info-title">Description</h3>
+          <h2><span class="description">clear sky</span></h2>
+        </div>
+      </div>
+      <div id="map"></div>
+    </main>
+
+    <footer class="footer container">
+      <p>
+        &copy;Copyright <span class="year">2022</span>. Made with 💙 by Veeren
+      </p>
+    </footer>
+
+    <!-- IonIcons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
