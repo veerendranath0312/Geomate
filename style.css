@@ -141,13 +141,6 @@
   opacity: 0;
 }
 
-.warning-icon,
-.close-modal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .warning-icon {
   border-radius: 10px;
   background: #d5390d;
@@ -156,28 +149,15 @@
 
   font-weight: bold;
   font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .warning-text {
   flex-grow: 2;
   margin-left: 20px;
   font-size: 18px;
-}
-
-.close-modal {
-  font-size: 20px;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  padding: 5px;
-  border-radius: 8px;
-  font-weight: bold;
-  background: transparent;
-}
-
-.close-modal:hover {
-  background: var(--dark-bg-color);
-  transition: background 0.3s;
 }
 
 @media (max-width: 400px) {
