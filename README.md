@@ -14,4 +14,8 @@ This application uses [ipapi.co](https://ipapi.co/), [OpenWeather](https://openw
 
 ## Demo
 
-You can see live demo [here]()
+You can see live demo [here](https://geomate.vercel.app/)
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
